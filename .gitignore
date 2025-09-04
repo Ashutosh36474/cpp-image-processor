@@ -1,0 +1,10 @@
+# This is a comment. Lines starting with # are ignored.
+
+# Ignore the entire build directory.
+# This is the most important rule for a C++ project. It prevents
+# all compiled object files and the final executable from being tracked.
+build/
+
+# Ignore common OS-specific files that don't belong in a repository.
+.DS_Store
+Thumbs.db
